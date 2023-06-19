@@ -1,31 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GitHub Pages - Open Graph Meta Data</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="How to Become an SEO Expert (8 Steps)" />
-<meta property="og:description" content="Get from SEO newbie to SEO pro in 8 simple steps." />
-<!-- <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" /> -->
+    <meta property="og:description" content="Get from SEO newbie to SEO pro in 8 simple steps." />
+    <meta property="og:image" content="https://i.pinimg.com/originals/01/48/0f/01480f29ce376005edcbec0b30cf367d.jpg" />
+    <title>demo</title>
 </head>
 <body>
-    <h1>Open Graph Meta Data</h1>
-    <div id="og-data"></div>
-
-    <script>
-        $(document).ready(function() {
-            $.ajax({
-                url: "https://example.com",  // URL của trang web cần lấy Open Graph meta data
-                success: function(data) {
-                    var ogData = $(data).filter('meta[property^="og:"]');
-                    ogData.each(function() {
-                        var property = $(this).attr('property');
-                        var content = $(this).attr('content');
-                        $('#og-data').append('<p>' + property + ': ' + content + '</p>');
-                    });
-                }
-            });
-        });
-    </script>
+    <img src="https://i.pinimg.com/originals/01/48/0f/01480f29ce376005edcbec0b30cf367d.jpg" alt="#">
+    <p class="title" id="title" >Get from SEO newbie to SEO pro in 8 simple steps.</p>
+    <param name="" value="">
+    <p class="description">How to Become an SEO Expert (8 Steps)</p>
 </body>
 </html>
